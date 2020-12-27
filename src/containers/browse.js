@@ -6,7 +6,7 @@ import { Card, Loading, Header, Player } from "../components";
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 import FooterContainer from "./footer";
-
+//Browse container
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState("series");
   const [searchTerm, setSearchTerm] = useState("");
